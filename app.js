@@ -7,8 +7,8 @@ var screen = document.querySelector('#container input')
 
 for (let i = 0; i < allTd.length; i++) {
     allTd[i].addEventListener('click', (e) => {
-        var text = e.target.innerText;
-        screen.value += text;
+        var text = e.target.innerText
+    
 
         if (text === '=') {
             try {
